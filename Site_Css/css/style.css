@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+}
+
+#cabeca{
+    background-color: #26190D;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-cabeca{
+    color: white;
+}
+
+#sub-titulo{
+    font-size: 6px;
+    color: white;
+}
+
+#span-cabeca{
+    color: grey;
+}
+
+#div-buttons-cabeca{
+    width: 30%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+
+.links-cabeca{
+    text-decoration: none;
+    color: white;
+    font-size: 9px;
+    padding: 5px;
+    transition: 0.3s ease;
+}
+
+.links-cabeca:hover{
+    background-color: #D9043D;
+}
+
+#div-auxiliar{
+    background-color: #B33F00;
+    height: 160px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-auxiliar{
+    margin-bottom: 15px;
+}
+
+#sub-auxiliar{
+    width: 40%;
+    font-size: 12px;
+    text-align: center;
+}
+
+#principal{
+    background-color: white;
+    height: 700px;
+    padding: 50px;
+}
+#div-main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-primaria{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-primario{
+    width: 120px;
+    height: 37px;
+    padding: 7px;
+    background-color: #D9043D;
+    color: white;
+    border: 1px solid;
+    font-size: 10px;
+}
+
+.tools{
+    font-size: 45px;
+    text-align: center;
+    color: #26190D;
+}
+
+#div-secundaria{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-icons{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.div-icons > h3{
+    color: #26190D;
+}
+
+.div-icons > p{
+    font-size: 12px;
+    color: black;
+}
+
+#title-secundario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#title-secundario > p{
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+.div-nav{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.div-nav > p{
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.button-secundario{
+    width: 180px;
+    height: 37px;
+    padding: 7px;
+    background-color: #D9043D;
+    color: white;
+    border: 1px solid;
+    font-size: 10px;
+}
+
+#rodape{
+    background-color: #26190D;
+    height: 250px;
+}
+
+#div-rodape{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    bottom: 0px;
+    color: white;
+}
+
+#div-rodape > p{
+    font-size: 11px;
+    color: grey;
+}
+
+#icons{
+    width:20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
