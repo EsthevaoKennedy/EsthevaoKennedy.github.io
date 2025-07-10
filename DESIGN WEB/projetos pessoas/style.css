@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #8a4848;
+    grid-template-rows: 150px 1fr 120px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+
+}
+header{
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+}
+
+#conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100vh - 270px);
+}
+
+footer{
+    grid-area: footer;
+}
+
+#title-header{
+    text-align: center;
+}
+
+.divs{
+    width: 200px;
+    height: 200px auto;
+    padding: 20px;
+    border:1px solid black;
+}

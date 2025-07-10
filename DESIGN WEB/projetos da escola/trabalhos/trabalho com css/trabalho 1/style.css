@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#div-cabeca{
+   background-color: #525252;
+    color: aliceblue;
+   height: 60px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+#titulo{
+    text-align-last: left;
+    color: aliceblue;
+}
+#link{
+    text-align-last:right;
+    color: aliceblue;
+    font-size: 11px;
+    padding: 10px;
+}
+#div-auxiliar{
+   background-color: #262525;
+    color: aliceblue;
+   height: 170px;
+ 
+}
+#div-button{
+width: 100px;
+height: 25px;
+padding: 1px;
+background-color: #0db846;
+color: aliceblue;
+border: 1px solid;
+}
+#inter{
+background-color: white ;
+
+}
+#div-icons{
+   
+}
+#cabeca-dois{
+    background-color: #0db846 ;
+    height: 270px;
+}
+#sub-titulo-dois{
+
+}
+#cabeca-tres{
+    background-color: #ffffff ;
+    height: 270px;  
+}
+#roda-pe{
+    background-color: #525252 ;
+    height: 120px;  
+    color: #ffffff;
+}
+
+

@@ -3,54 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <title>Curriculo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Currículo - Estudante de Informática</h1>
-    
-    <h2>Dados pessoais</h2>
-    <p><strong>Nome:Esthevao Kennedy Alves Pinto de Araujo</strong></p>
-    <p><strong>Telefone:22 99902-6617</strong></p>
-    <p><strong>E-mail:esthevaopinto@gmail.com</strong></p>
-    <p><strong>Cidade:Nova Friburgo</strong></p>
+    <header>
+        <h1 id="title-header">Currículo - Estudante de Informática</h1>
+        <div id="div-dados-pessoais">
+            <h2 id="tilte-dados">Dados pessoais</h2>
+            <p class="p-dados"><strong>Nome:Esthevao Kennedy Alves Pinto de Araujo</strong></p>
+            <p class="p-dados"><strong>Telefone:22 99902-6617</strong></p>
+            <p class="p-dados"><strong>E-mail:esthevaopinto@gmail.com</strong></p>
+            <p class="p-dados"><strong>Cidade:Nova Friburgo</strong></p>
+        </div>
+    </header>
+    <main>
+        <div id="conteudo">
+            <div id="div-obj" class="divs">
+                <h2 id="div-header-dois">Objetivo</h2>
+                <p>Buscando uma oportunidade de estágio ou projeto na área de desenvolvimento web e programação, para aplicar e aprimorar meus conhecimentos em HTML, CSS e C++, enquanto continuo minha formação em Informática.</p>
+            </div>
+                <div id="div-formacao" class="divs">
+                <h2 id="div-header-tres">Formação Acadêmica</h2>
+                <p><strong>Curso Técnico em Informática (em andamento)</strong></p>
+                <p><strong>CEFET/RJ – Campus Nova Friburgo</strong></p>
+            </div>
+            <div id="div-habilidades" class="divs">
+                <h2 id="div-header-quatro">Habilidades Técnicas</h2>
+                <ul id="div-txt-habilidades">
+                    <li class="li-habilidades">HTML: Criação de páginas web com estruturação semântica.</li>
+                    <li class="li-habilidades">CSS: Estilização de sites, uso de cores, fontes, layouts e efeitos visuais.</li>
+                    <li class="li-habilidades">C++: Lógica de programação, algoritmos, estruturas de controle e manipulação de dados.</li>
+                    <li class="li-habilidades">Lógica de Programação: Resolução de problemas utilizando diferentes estruturas lógicas.</li>
+                    <li class="li-habilidades">Informática Básica: Pacote Office, organização de arquivos e ferramentas básicas de TI.</li>
+                </ul>
+            </div>
+            <div id="div-projetos" class="divs">
+                <h2 id="div-header-cinco">Projetos Acadêmicos</h2>
+                <p><strong>Site Pessoal (HTML e CSS):</strong></p>
+                <p>Criação de um site simples com informações pessoais, imagens e links.</p>
+                <p><strong>Pequenos Programas em C++:</strong></p>
+                <p>Exercícios de cálculo, estrutura de repetição e tomada de decisão.</p>
+            </div>
+            <div id="div-competencias" class="divs">
+                <h2 id="div-header-seis">Competências Pessoais</h2>
+                <ul id="div-txt-competencias">
+                    <li class="li-competencias">Competências Pessoais</li>
+                    <li class="li-competencias">Boa comunicação e trabalho em equipe</li>
+                    <li class="li-competencias">Organização e responsabilidade com prazos</li>
+                </ul>
+            </div>
+            <div id="div-idiomas" class="divs">
+                <h2 id="div-header-sete">Idiomas</h2>
+                <p>Português: Nativo</p>
+                <p>Inglês: Básico (em aprendizado, principalmente termos técnicos)</p>
+            </div>
+    </div>
+    </main>
+    <footer>
+        <div id="div-projetos-github">
+            <h1 id="div-header-oito">Projetos no GitHub</h1>
+            <ul id="div-txt-projetos-github">
+                <li>
+                    <strong>Site Pessoal:</strong> <a href="https://esthevaokennedy.github.io/Site_Css/index.html" target="_blank">https://esthevaokennedy.github.io/Site_Css/index.html</a>
+                    <p>Site simples com minhas informações, feito usando HTML e CSS.</p>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
-    <h2>Objetivo</h2>
-    <p>Buscando uma oportunidade de estágio ou projeto na área de desenvolvimento web e programação, para aplicar e aprimorar meus conhecimentos em HTML, CSS e C++, enquanto continuo minha formação em Informática.</p>
-
-    <h2>Formação Acadêmica</h2>
-    <p><strong>Curso Técnico em Informática (em andamento)</strong></p>
-    <p><strong>CEFET/RJ – Campus Nova Friburgo</strong></p>
-    
-    <h2>Habilidades Técnicas</h2>
-    <ul>
-        <li>HTML: Criação de páginas web com estruturação semântica.</li>
-        <li>CSS: Estilização de sites, uso de cores, fontes, layouts e efeitos visuais.</li>
-        <li>C++: Lógica de programação, algoritmos, estruturas de controle e manipulação de dados.</li>
-         <li>Lógica de Programação: Resolução de problemas utilizando diferentes estruturas lógicas.</li>
-         <li>Informática Básica: Pacote Office, organização de arquivos e ferramentas básicas de TI.</li>
-    </ul>
-    <h2>Projetos Acadêmicos</h2>
-    <p><strong>Site Pessoal (HTML e CSS):</strong></p>
-    <p>Criação de um site simples com informações pessoais, imagens e links.</p>
-    <p><strong>Pequenos Programas em C++:</strong></p>
-    <p>Exercícios de cálculo, estrutura de repetição e tomada de decisão.</p>
-
-    <h2>Competências Pessoais</h2>
-    <ul>
-         <li>Competências Pessoais</li>
-          <li>Boa comunicação e trabalho em equipe</li>
-         <li>Organização e responsabilidade com prazos</li>
-    </ul>
-
-    <h2>Idiomas</h2>
-    <p>Português: Nativo</p>
-    <p>Inglês: Básico (em aprendizado, principalmente termos técnicos)</p>
-
-    <h1>Projetos no GitHub</h1>
-    <ul>
-        <li>
-            <strong>Site Pessoal:</strong> <a href="https://esthevaokennedy.github.io/Site_Css/index.html" target="_blank">https://esthevaokennedy.github.io/Site_Css/index.html</a>
-            <p>Site simples com minhas informações, feito usando HTML e CSS.</p>
-        </li>
-    </ul>
 </body>
 </html>
