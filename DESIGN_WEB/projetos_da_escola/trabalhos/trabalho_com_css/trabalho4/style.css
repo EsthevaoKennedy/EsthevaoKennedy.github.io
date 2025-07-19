@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #0B2B3C;
+    color: #fff;
+}
+
+header {
+    background: #0B2B3C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #4DB8FF;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.texto-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.texto-banner h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.texto-banner p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.caixas {
+    display: flex;
+    background: #fff;
+    color: #000;
+    padding: 40px 20px;
+    justify-content: space-around;
+}
+
+.caixa {
+    width: 30%;
+    background: #00AEEF;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.caixa h2 {
+    margin-top: 0;
+}
+
+.caixa button {
+    background: #0075A2;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.mundo-depoimento {
+    display: flex;
+    padding: 40px 20px;
+    background: #fff;
+    color: #000;
+    justify-content: space-around;
+}
+
+.mundo, .depoimento {
+    width: 45%;
+}
+
+.mundo img {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.mundo a {
+    color: #00AEEF;
+    text-decoration: underline;
+}
+
+footer {
+    background: #A9D9F2;
+    text-align: center;
+    padding: 15px;
+    color: #000;
+}
+
+footer a {
+    color: #000;
+    text-decoration: underline;
+}
